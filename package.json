@@ -14,7 +14,8 @@
         "deploy-aurora": "cd contracts && hardhat deploy --network testnet_aurora",
         "deploy-celo": "cd contractsCelo && hardhat deploy --network celo_alfajores"
     },
-    "dependencies": {
+    "dependencies": {  
+	"bls12377js": "https://github.com/celo-org/bls12377js.git",
         "@babel/plugin-syntax-jsx": "^7.14.5",
         "@broxus/await-semaphore": "^0.1.4",
         "@celo-tools/use-contractkit": "^3.0.1",
@@ -55,7 +56,6 @@
         "bignumber.js": "^9.0.1",
         "bip39": "^3.0.4",
         "black-scholes": "^1.1.0",
-        "bls12377js": "https://github.com/celo-org/bls12377js.git",
         "bn.js": "^5.2.0",
         "buffer": "^6.0.3",
         "buffer-layout": "^1.2.0",
