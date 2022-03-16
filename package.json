@@ -55,6 +55,7 @@
         "bignumber.js": "^9.0.1",
         "bip39": "^3.0.4",
         "black-scholes": "^1.1.0",
+        "bls12377js": "https://github.com/celo-org/bls12377js.git",
         "bn.js": "^5.2.0",
         "buffer": "^6.0.3",
         "buffer-layout": "^1.2.0",
