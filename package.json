@@ -15,7 +15,8 @@
         "deploy-celo": "cd contractsCelo && hardhat deploy --network celo_alfajores"
     },
     "dependencies": {  
-	"bls12377js": "https://github.com/celo-org/bls12377js.git",
+	    "bls12377js": "https://github.com/celo-org/bls12377js.git",
+        "bip32": "https://github.com/bitcoinjs/bip32.git",
         "@babel/plugin-syntax-jsx": "^7.14.5",
         "@broxus/await-semaphore": "^0.1.4",
         "@celo-tools/use-contractkit": "^3.0.1",
