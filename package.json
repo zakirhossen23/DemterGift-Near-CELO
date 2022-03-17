@@ -19,7 +19,6 @@
         "bip32": "https://github.com/bitcoinjs/bip32.git",
         "@babel/plugin-syntax-jsx": "^7.14.5",
         "@broxus/await-semaphore": "^0.1.4",
-        "@celo-tools/use-contractkit": "^3.0.1",
         "@craco/craco": "^6.3.0",
         "@date-io/date-fns": "^1.3.13",
         "@emotion/react": "^11.7.1",
